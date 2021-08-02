@@ -10,21 +10,16 @@ export default {
             required: true,
             String,
         },
-        width: {
-            Number,
-        },
-        height: {
-            Number,
-        },
     },
 }
 </script>
 
 <style scoped>
-.logo {
-    background-image: url('../assets/img/logo.svg');
-    height: 100px;
-    width: 100px;
-    background-size: 100px 100px;
+.navbar {
+    background-image: url('../assets/img/logo-navbar.png');
+    height: 90px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>
