@@ -15,9 +15,10 @@ export default {
 </script>
 
 <style scoped>
-.navbar {
+.navbar-logo {
     background-image: url('../assets/img/logo-navbar.png');
     height: 90px;
+    width: 360px;
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
