@@ -13,7 +13,7 @@
                 <Logo :type="type"/>
                 <span class="material-icons" @click="changeNavigationVisibility()">menu</span>
             </div>
-            <div class="links" v-if="isNavigationShown">
+            <div class="links" :class="isNavigationShown?'active':''">
                 <div class="link" v-for="link in links" :key="link.text">
                     <router-link :to="link.address">{{ link.text }}</router-link>
                 </div>
@@ -39,10 +39,10 @@ export default {
     data () {
         return {
             links: [
-                {text: 'HOME', address: '/#'},
-                {text: 'SERVICES', address: '/#'},
-                {text: 'ABOUT US', address: '/#'},
-                {text: 'CONTACT', address: '/#'},
+                {text: 'Home', address: '/#'},
+                {text: 'Services', address: '/#'},
+                {text: 'About us', address: '/#'},
+                {text: 'Contact', address: '/#'},
             ],
             isNavigationShown: false, 
         }
@@ -80,12 +80,14 @@ export default {
 .navbar .navbar-content .links .link {
     padding: 0px 10px 0px 10px;
 }
-.links .link a{
+.links .link a {
+    text-transform: uppercase;
     text-decoration: none;
     color: black;
 }
-.links .link a:hover{
-    color: rgb(235, 79, 171);
+.links .link a:hover {
+    color: rgb(91, 65, 160);
+    transition: 0.3s ease-in-out;
 }
 
 .navbar .responsive-navbar-content {
@@ -113,12 +115,19 @@ export default {
     height: 50px;
     width: 250px;
 }
-.navbar .responsive-navbar-content .links {
+.navbar .responsive-navbar-content .links{
+    opacity: 0;
+    height: 0px;
+    font-size: 30px;
+}
+
+.navbar .responsive-navbar-content .links.active{
     display: flex;
     justify-items: center;
     align-items: center;
     flex-direction: column;
-
+    height: auto;
+    opacity: 1;
     margin-top: 30px;
     font-size: 30px;
 }
