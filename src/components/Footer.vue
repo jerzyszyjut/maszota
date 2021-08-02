@@ -9,6 +9,9 @@
         <div class="lower">
             <div class="lower-section" v-for="section in lowerSections" :key="section"> 
                 <div class="text1"> {{ section.text1 }} </div>
+                <span class="material-icons">
+                    local_phone
+                </span>
                 <div class="text2"> {{ section.text2 }} </div>
             </div>
         </div>
