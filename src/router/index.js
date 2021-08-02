@@ -1,20 +1,35 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+
 import Home from '../views/Home.vue'
 import About from '../views/About.vue'
+
+import i18n from '../i18n'
 
 Vue.use(VueRouter)
 
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    redirect: `/${i18n.locale}`
   },
   {
-    path: '/about',
-    name: 'About',
-    component: About
+    path: '/:lang',
+    component: {
+      render (c) {return c('router-view')}
+    },
+    children: [
+      {
+        path: '',
+        name: 'Home',
+        component: Home
+      },
+      {
+        path: 'about',
+        name: 'About',
+        component: About
+      }
+    ]
   }
 ]
 
