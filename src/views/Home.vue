@@ -1,12 +1,16 @@
 <template>
   <div class="home">
-    <img height="400px" alt="Vue logo" src="../assets/logo-small.svg">
+    <Footer/>
   </div>
 </template>
 
 <script>
+import Footer from '../components/Footer.vue'
 
 export default {
   name: 'Home',
+  components: {
+    Footer,
+  }
 }
 </script>
