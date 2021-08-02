@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <NavBar/>
+    <Marketing/>
     <Partners/>
     <Footer/>
   </div>
@@ -10,6 +11,7 @@
 import Partners from '../components/Partners.vue'
 import NavBar from '../components/NavBar.vue'
 import Footer from '../components/Footer.vue'
+import Marketing from '../components/Marketing.vue'
 
 export default {
   name: 'Home',
@@ -17,6 +19,7 @@ export default {
     NavBar,
     Partners,
     Footer,
+    Marketing,
   }
 }
 </script>
