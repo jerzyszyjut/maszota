@@ -1,3 +1,37 @@
 {
-    "message": "witaj i18n !!"
+    "navbar": {
+        "home": "Strona Główna",
+        "services": "Oferta",
+        "about_us": "O nas",
+        "contact": "Kontakt"
+    },
+    "partners": {
+        "header": "Współpracujemy tylko z najlepszymi markami"
+    },
+    "footer": {
+        "upperSection": {
+            "header": {
+                "call": "Zadzwoń do nas",
+                "email": "Wyśli do nas maila",
+                "opening_hours": "Godziny otwarcia"
+            },
+            "content": {
+                "call": "Tel: 123 456 7890 | Fax: 12 345 678 90",
+                "email": "info@mysite.com",
+                "opening_hours": "Poniedziałek - Piątek: 7-22"
+            }
+        },
+        "lowerSection": {
+            "header": {
+                "first": "Lorem ipsum dolor sit amet",
+                "second": "Lorem ipsum dolor sit amet",
+                "third": "Lorem ipsum dolor sit amet"
+            },
+            "content": {
+                "first": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "second": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "third": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            }
+        }
+    }
 }

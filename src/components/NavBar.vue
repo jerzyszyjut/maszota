@@ -4,7 +4,7 @@
             <Logo :type="type"/>
             <div class="links">
                 <div class="link" v-for="link in links" :key="link.text">
-                    <router-link :to="link.address">{{ link.text }}</router-link>
+                    <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
             </div>
         </div>
@@ -15,7 +15,7 @@
             </div>
             <div class="links" :class="isNavigationShown?'active':''">
                 <div class="link" v-for="link in links" :key="link.text">
-                    <router-link :to="link.address">{{ link.text }}</router-link>
+                    <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
             </div>
         </div>
@@ -39,10 +39,10 @@ export default {
     data () {
         return {
             links: [
-                {text: 'Home', address: '/#'},
-                {text: 'Services', address: '/#'},
-                {text: 'About us', address: '/#'},
-                {text: 'Contact', address: '/#'},
+                {text: 'home', address: '/#'},
+                {text: 'services', address: '/#'},
+                {text: 'about_us', address: '/#'},
+                {text: 'contact', address: '/#'},
             ],
             isNavigationShown: false, 
         }

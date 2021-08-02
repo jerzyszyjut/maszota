@@ -4,15 +4,15 @@
             <div class="section" v-for="section in upperSections" :key="section"> 
                 <div class="header"> 
                     <div class="material-icons"> {{ section.icon }} &nbsp; </div>
-                    {{ section.header }}
+                    {{ $t(`footer.upperSection.header.${section.header}`) }}
                 </div>
-                <div class="content"> {{ section.content }} </div>
+                <div class="content"> {{ $t(`footer.upperSection.content.${section.content}`) }} </div>
             </div>
         </div>
         <div class="lower">
             <div class="section low" v-for="section in lowerSections" :key="section"> 
-                <div class="header"> {{ section.header }} </div>
-                <div class="content"> {{ section.content }} </div>
+                <div class="header"> {{ $t(`footer.lowerSection.header.${section.header}`) }} </div>
+                <div class="content"> {{ $t(`footer.lowerSection.content.${section.content}`) }} </div>
             </div>
         </div>
     </div>
@@ -24,14 +24,14 @@ export default {
     data() {
         return {
             upperSections: [
-                {header:'CALL US', icon: 'local_phone', content:'Tel: 123-456-7890 | Fax: 123-456-7890'},
-                {header:'EMAIL US', icon: 'mail_outline', content:'info@mysite.com'},
-                {header:'OPENING HOURS', icon: 'schedule', content:'Mon - Fri: 7am - 10pm'},
+                {header:'call', icon: 'local_phone', content:'call'},
+                {header:'email', icon: 'mail_outline', content:'email'},
+                {header:'opening_hours', icon: 'schedule', content:'opening_hours'},
             ],
             lowerSections: [
-                {header:'LOREM IPSUM DOLOR SIT AMET', content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-                {header:'LOREM IPSUM DOLOR SIT AMET', content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
-                {header:'LOREM IPSUM DOLOR SIT AMET', content:'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'},
+                {header:'first', content:'first'},
+                {header:'second', content:'second'},
+                {header:'third', content:'third'},
             ]
         }
     }
@@ -71,6 +71,7 @@ export default {
         display: flex;
         align-items: center;
         font-size: 20px;
+        text-transform: uppercase;
     }
     .lower .header {
         margin-bottom: 15px;
