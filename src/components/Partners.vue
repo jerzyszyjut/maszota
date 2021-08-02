@@ -1,6 +1,6 @@
 <template>
     <div class="partners">
-        <div class="header">LOREM IPSUM</div>
+        <div class="header">SELLING ONLY QUALITY BRANDS:</div>
         <div class="logos">
             <img class="logo" src="../assets/partners_logos/bruh.png">
             <img class="logo" src="../assets/partners_logos/bruh.png">
