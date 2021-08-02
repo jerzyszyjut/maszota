@@ -1,12 +1,16 @@
 <template>
   <div class="home">
-    <img height="400px" alt="Vue logo" src="../assets/logo-small.svg">
+    <NavBar/>
   </div>
 </template>
 
 <script>
+import NavBar from '../components/NavBar.vue';
 
 export default {
   name: 'Home',
+  components: {
+    NavBar,
+  }
 }
 </script>
