@@ -1,6 +1,5 @@
 <template>
   <div class="home">
-    <Footer/>
   </div>
 </template>
 
