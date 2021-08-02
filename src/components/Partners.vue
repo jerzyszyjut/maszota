@@ -12,11 +12,6 @@
 <script>
 export default {
     name: 'Partners',
-    data() {
-        return {
-            
-        }
-    }
 }
 </script>
 
