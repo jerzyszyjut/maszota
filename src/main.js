@@ -4,6 +4,8 @@ import App from './App.vue';
 import router from './router/index';
 import VueRouter from 'vue-router';
 
+import './assets/style/global.css';
+
 Vue.use(VueRouter);
 new Vue({
   router,
