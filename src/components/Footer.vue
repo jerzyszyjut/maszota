@@ -80,4 +80,23 @@ export default {
     .content {
         font-size: 14px;
     }
+    @media screen and (max-width: 600px) {
+        .upper {
+            flex-direction: column;
+        }
+        .lower {
+            flex-direction: column;
+        }
+        .section {
+            width: 75%;
+            margin-bottom: 15px;
+        }
+        .section.low {
+            margin-bottom: 0px;
+        }
+        .section:nth-child(2) {
+            border-left: solid 0px;
+            border-right: solid 0px;
+        }
+    }
 </style>
