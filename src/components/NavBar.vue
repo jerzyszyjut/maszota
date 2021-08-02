@@ -61,7 +61,7 @@ export default {
 }
 
 .navbar {
-    background-color: rgb(187, 187, 187);
+    background-color: white;
 }
 .navbar .navbar-content {
     display: flex;
