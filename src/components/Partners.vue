@@ -1,6 +1,6 @@
 <template>
     <div class="partners">
-        <div class="header">SELLING ONLY QUALITY BRANDS:</div>
+        <div class="header">{{ $t('partners.header') }}</div>
         <div class="logos">
             <img class="logo" src="../assets/partners_logos/bruh.png">
             <img class="logo" src="../assets/partners_logos/bruh.png">
@@ -29,6 +29,7 @@ export default {
         align-items: center;
         font-size: 30px;
         margin-bottom: 50px;
+        text-transform: uppercase;
     }
     .logos {
         display: flex;
