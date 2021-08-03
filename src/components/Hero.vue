@@ -48,4 +48,15 @@ export default {
         text-align: center;
         text-transform: uppercase;
     }
+    @media screen and (max-width: 600px) {
+        .background-image {
+            height: 475px;
+        }
+        .header {
+            font-size: 32px;
+        }
+        .paragraph {
+            font-size: 14px;
+        }
+    }
 </style>
