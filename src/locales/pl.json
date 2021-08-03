@@ -33,5 +33,19 @@
                 "third": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         }
+    },
+    "marketing": {
+        "sections": {
+            "header": {
+                "quality": "Lorem ipsum dolor sit amet",
+                "prices": "Lorem ipsum dolor sit amet",
+                "location": "Lorem ipsum dolor sit amet"
+            },
+            "content": {
+                "quality": "Lorem ipsum dolor sit amet",
+                "prices": "Lorem ipsum dolor sit amet",
+                "location": "Lorem ipsum dolor sit amet"
+            }
+        }
     }
 }
