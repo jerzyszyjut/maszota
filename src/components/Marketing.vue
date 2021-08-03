@@ -35,7 +35,7 @@ export default {
         align-items: center;
         box-sizing: border-box;
         width: 100%;
-        background-color: #E2E4E5;
+        background-color: #f3f3f3;
         padding: 100px;
     }
     .header {
