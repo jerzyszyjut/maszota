@@ -7,7 +7,7 @@
             <div class="section" v-for="section in sections" :key="section">
                 <div class="material-icons"> {{ section.icon }} </div>
                 <div class="header"> {{ $t(`marketing.sections.header.${section.header}`) }} </div>
-                <div class="paragraph"> {{ $t(`marketing.sections.header.${section.paragraph}`) }} </div> 
+                <div class="paragraph"> {{ $t(`marketing.sections.content.${section.paragraph}`) }} </div> 
             </div>
         </div>
     </div>
@@ -65,7 +65,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 20%;
+        width: 30%;
     }
     .section .material-icons {
         font-size: 60px;
@@ -74,11 +74,11 @@ export default {
     }
     .section .header {
         font-size: 18px;
-        width: 100%;
+        width: 37%;
     }
     .section .paragraph {
         font-size: 14px;
-        width: 85%;
+        width: 45%;
         margin-bottom: 0px;
     }
     @media screen and (max-width: 600px) {
