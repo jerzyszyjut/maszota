@@ -18,9 +18,9 @@ export default {
     data() {
         return {
             sections: [
-                {icon: 'star', header: 'quality', paragraph: 'quality'},
-                {icon: 'sell', header: 'experience', paragraph: 'experience'},
-                {icon: 'location_on', header: 'satisfaction', paragraph: 'satisfaction'},                
+                {icon: 'star_border', header: 'quality', paragraph: 'quality'},
+                {icon: 'military_tech', header: 'experience', paragraph: 'experience'},
+                {icon: 'sentiment_satisfied_alt', header: 'satisfaction', paragraph: 'satisfaction'},                
             ]
         }
     }
