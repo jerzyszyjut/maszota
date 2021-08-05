@@ -17,6 +17,7 @@
                 <div class="link" v-for="link in links" :key="link.text">
                     <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
+                
             </div>
         </div>
     </div>

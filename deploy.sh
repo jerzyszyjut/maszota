@@ -10,5 +10,6 @@ cd dist
 git init
 git add -A
 git commit -m 'deploy'
-git push -f git@github.com:jerzyszyjut/maszota.git master:gh-pages
+git remote add origin https://github.com/jerzyszyjut/maszota.git
+git push -f origin master:gh-pages
 cd -
