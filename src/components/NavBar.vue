@@ -4,7 +4,7 @@
             <Logo :type="type"/>
             <div class="links">
                 <div class="link" v-for="link in links" :key="link.key">
-                    <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
+                    <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
                     <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
@@ -48,7 +48,7 @@ export default {
         return {
             links: [
                 {key: 1, text: 'home', address: `/`},
-                {key: 2, text: 'services', address: `/${this.$i18n.locale}/services`},
+                {key: 2, text: 'services', address: `/services`},
                 {key: 3, text: 'about_us', address: '/#'},
                 {key: 4, text: 'contact', address: '/#'},
             ],
@@ -59,9 +59,12 @@ export default {
         changeNavigationVisibility() {
             this.isNavigationShown = !this.isNavigationShown;
         },
+        redirect(url) {
+            const fullURL = `/${this.$i18n.locale}${url}`
+            this.$router.push(fullURL);
+        },
         setLocale(locale) {
             this.$i18n.locale = locale
-            console.log(this.$i18n.locale)
             this.$router.push({
                 params: { lang: locale }
             })
@@ -75,9 +78,6 @@ export default {
             }
         }
     },
-    mounted() {
-        console.log(this.$i18n.locale);
-    }
 }
 </script>
 
