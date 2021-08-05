@@ -7,8 +7,8 @@
                     <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
-                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
-                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
+                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
                 </div>
             </div>
         </div>
@@ -120,14 +120,6 @@ export default {
 .navbar .responsive-navbar-content {
     display: none;
 }
-@media screen and (max-width: 600px) {
-    .navbar .responsive-navbar-content {
-        display: block;
-    }
-    .navbar .navbar-content {
-        display: none;
-    }
-}
 
 .icon {
     width: 40px;
@@ -143,7 +135,6 @@ export default {
 .uk-icon {
     background-image: url('../assets/img/united-kingdom.png');
 }
-
 .navbar .responsive-navbar-content {
     padding: 20px;
 }
@@ -172,5 +163,18 @@ export default {
     opacity: 1;
     margin-top: 30px;
     font-size: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .navbar .responsive-navbar-content {
+        display: block;
+    }
+    .navbar .navbar-content {
+        display: none;
+    }
+    .icon {
+        width: 70px;
+        height: 50px;
+    }
 }
 </style>
