@@ -48,7 +48,7 @@ export default {
         return {
             links: [
                 {text: 'home', address: '/'},
-                {text: 'services', address: '/en/services'},
+                {text: 'services', address: `/${this.$i18n.locale}/services`},
                 {text: 'about_us', address: '/#'},
                 {text: 'contact', address: '/#'},
             ],
