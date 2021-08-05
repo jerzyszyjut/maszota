@@ -70,6 +70,9 @@ export default {
                 params: { lang: this.$i18n.locale},
             })
         }
+    },
+    mounted() {
+        console.log(this.$i18n.locale);
     }
 }
 </script>
