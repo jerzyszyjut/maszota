@@ -19,7 +19,7 @@
             </div>
             <div class="links" :class="isNavigationShown?'active':''">
                 <div class="link" v-for="link in links" :key="link.key">
-                    <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
+                    <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
                     <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
