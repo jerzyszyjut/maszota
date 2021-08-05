@@ -107,6 +107,7 @@ export default {
     padding: 0px 10px 0px 10px;
 }
 .links .link a {
+    cursor: pointer;
     text-transform: uppercase;
     text-decoration: none;
     color: black;
