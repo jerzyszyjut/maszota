@@ -1,8 +1,7 @@
 <template>
     <div class="marketing">
-        <div class="header">Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
-        <div class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
-            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+        <div class="header"> {{ $t(`marketing.header`) }} </div>
+        <div class="paragraph"> {{ $t(`marketing.paragraph`) }} </div>
         <div class="sections">
             <div class="section" v-for="section in sections" :key="section">
                 <div class="material-icons"> {{ section.icon }} </div>
@@ -20,8 +19,8 @@ export default {
         return {
             sections: [
                 {icon: 'star', header: 'quality', paragraph: 'quality'},
-                {icon: 'sell', header: 'prices', paragraph: 'prices'},
-                {icon: 'location_on', header: 'location', paragraph: 'location'},                
+                {icon: 'sell', header: 'experience', paragraph: 'experience'},
+                {icon: 'location_on', header: 'satisfaction', paragraph: 'satisfaction'},                
             ]
         }
     }
@@ -42,7 +41,7 @@ export default {
         display: flex;
         justify-content: center;
         width: 50%;
-        font-size: 32px;
+        font-size: 40px;
         font-weight: 500;
         text-align: center;
         margin-bottom: 30px;
@@ -73,7 +72,7 @@ export default {
         color: #5B41A0;
     }
     .section .header {
-        font-size: 18px;
+        font-size: 24px;
         width: 37%;
     }
     .section .paragraph {

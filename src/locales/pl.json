@@ -35,16 +35,18 @@
         }
     },
     "marketing": {
+        "header": "Lorem ipsum",
+        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
         "sections": {
             "header": {
-                "quality": "Lorem ipsum dolor sit amet",
-                "prices": "Lorem ipsum dolor sit amet",
-                "location": "Lorem ipsum dolor sit amet"
+                "quality": "Jakość",
+                "experience": "Doświadczenie",
+                "satisfaction": "Zadowolenie"
             },
             "content": {
                 "quality": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "prices": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                "location": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                "satisfaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         }
     },
