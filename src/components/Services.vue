@@ -41,6 +41,7 @@ export default {
         width: 100%;
         background-color: #f3f3f3;
         padding: 100px;
+        padding-bottom: 0px;
     }
     .header {
         display: flex;

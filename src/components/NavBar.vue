@@ -39,8 +39,8 @@ export default {
     data () {
         return {
             links: [
-                {text: 'home', address: '/#'},
-                {text: 'services', address: '/#'},
+                {text: 'home', address: '/'},
+                {text: 'services', address: '/en/services'},
                 {text: 'about_us', address: '/#'},
                 {text: 'contact', address: '/#'},
             ],
