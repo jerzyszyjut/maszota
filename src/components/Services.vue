@@ -89,7 +89,7 @@ export default {
         margin-bottom: 0px;
     }
     @media screen and (max-width: 600px) {
-        .marketing {
+        .services {
             padding: 10%;
         }
         .sections {
@@ -99,7 +99,10 @@ export default {
             width: 100%;
         }
         .section .paragraph {
-            padding-bottom: 60px;
+            padding-bottom: 50px;
+        }
+        .section {
+            margin-bottom: 0px;
         }
     }
 </style>
