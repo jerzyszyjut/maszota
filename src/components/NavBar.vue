@@ -6,6 +6,10 @@
                 <div class="link" v-for="link in links" :key="link.text">
                     <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
+                <div @click="switchLanguage()" class="language-choice">
+                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
+                </div>
             </div>
         </div>
         <div class="responsive-navbar-content">
@@ -17,7 +21,10 @@
                 <div class="link" v-for="link in links" :key="link.text">
                     <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
-                
+                <div @click="switchLanguage()" class="language-choice">
+                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
+                </div>
             </div>
         </div>
     </div>
@@ -51,6 +58,17 @@ export default {
     methods: {
         changeNavigationVisibility() {
             this.isNavigationShown = !this.isNavigationShown;
+        },
+        switchLanguage() {
+            if(this.$i18n.locale === 'en'){
+                this.$i18n.locale = 'pl'
+            }
+            else{
+                this.$i18n.locale = 'en'
+            }
+            this.$router.push({
+                params: { lang: this.$i18n.locale},
+            })
         }
     }
 }
@@ -101,6 +119,21 @@ export default {
     .navbar .navbar-content {
         display: none;
     }
+}
+
+.icon {
+    width: 40px;
+    height: 25px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+.poland-icon {
+    background-image: url('../assets/img/poland.png');
+}
+.uk-icon {
+    background-image: url('../assets/img/united-kingdom.png');
 }
 
 .navbar .responsive-navbar-content {
