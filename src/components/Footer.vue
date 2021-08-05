@@ -1,7 +1,7 @@
 <template>
     <div class="footer">
         <div class="upper">
-            <div class="section" v-for="section in upperSections" :key="section"> 
+            <div class="section" v-for="section in upperSections" :key="section.icon"> 
                 <div class="header"> 
                     <div class="material-icons"> {{ section.icon }} &nbsp; </div>
                     {{ $t(`footer.upperSection.header.${section.header}`) }}
@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="lower">
-            <div class="section low" v-for="section in lowerSections" :key="section"> 
+            <div class="section low" v-for="section in lowerSections" :key="section.icon"> 
                 <div class="header"> {{ $t(`footer.lowerSection.header.${section.header}`) }} </div>
                 <div class="content"> {{ $t(`footer.lowerSection.content.${section.content}`) }} </div>
             </div>

@@ -3,7 +3,7 @@
         <div class="navbar-content">
             <Logo :type="type"/>
             <div class="links">
-                <div class="link" v-for="link in links" :key="link.text">
+                <div class="link" v-for="link in links" :key="link.key">
                     <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
@@ -18,7 +18,7 @@
                 <span class="material-icons" @click="changeNavigationVisibility()">menu</span>
             </div>
             <div class="links" :class="isNavigationShown?'active':''">
-                <div class="link" v-for="link in links" :key="link.text">
+                <div class="link" v-for="link in links" :key="link.key">
                     <router-link :to="link.address">{{ $t(`navbar.${link.text}`) }}</router-link>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
@@ -47,10 +47,10 @@ export default {
     data () {
         return {
             links: [
-                {text: 'home', address: '/'},
-                {text: 'services', address: `/${this.$i18n.locale}/services`},
-                {text: 'about_us', address: '/#'},
-                {text: 'contact', address: '/#'},
+                {key: 1, text: 'home', address: `/`},
+                {key: 2, text: 'services', address: `/${this.$i18n.locale}/services`},
+                {key: 3, text: 'about_us', address: '/#'},
+                {key: 4, text: 'contact', address: '/#'},
             ],
             isNavigationShown: false, 
         }
@@ -59,16 +59,20 @@ export default {
         changeNavigationVisibility() {
             this.isNavigationShown = !this.isNavigationShown;
         },
+        setLocale(locale) {
+            this.$i18n.locale = locale
+            console.log(this.$i18n.locale)
+            this.$router.push({
+                params: { lang: locale }
+            })
+        },
         switchLanguage() {
             if(this.$i18n.locale === 'en'){
-                this.$i18n.locale = 'pl'
+                this.setLocale('pl')
             }
             else{
-                this.$i18n.locale = 'en'
+                this.setLocale('en')
             }
-            this.$router.push({
-                params: { lang: this.$i18n.locale},
-            })
         }
     },
     mounted() {

@@ -3,7 +3,7 @@
         <div class="header"> {{ $t(`services.header`) }} </div>
         <div class="paragraph"> {{ $t(`services.paragraph`) }} </div>
         <div class="sections">
-            <div class="section" v-for="section in sections" :key="section">
+            <div class="section" v-for="section in sections" :key="section.icon">
                 <div class="material-icons"> {{ section.icon }} </div>
                 <div class="header"> {{ $t(`services.sections.header.${section.header}`) }} </div>
                 <div class="paragraph"> {{ $t(`services.sections.content.${section.paragraph}`) }} </div> 
