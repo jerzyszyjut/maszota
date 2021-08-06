@@ -7,8 +7,8 @@
                     <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
-                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
-                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
                 </div>
             </div>
         </div>
@@ -22,8 +22,8 @@
                     <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
-                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
-                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
                 </div>
             </div>
         </div>
