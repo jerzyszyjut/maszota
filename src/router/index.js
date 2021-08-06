@@ -30,6 +30,10 @@ const routes = [
         component: Services
       }
     ]
+  },
+  { 
+    path: "*", 
+    redirect: `/${i18n.locale}` 
   }
 ]
 
