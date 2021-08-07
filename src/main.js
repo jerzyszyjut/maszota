@@ -6,6 +6,7 @@ import VueRouter from 'vue-router';
 
 import './assets/style/global.css';
 import i18n from './i18n'
+import vuetify from './plugins/vuetify'
 
 router.beforeEach((to, from, next) => {
 
@@ -22,6 +23,7 @@ Vue.use(VueRouter);
 new Vue({
   router,
   i18n,
+  vuetify,
   render: h => h(App)
 }).$mount('#app');
 
