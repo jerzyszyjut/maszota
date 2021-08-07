@@ -47,43 +47,27 @@ export default {
             years: [
                 {
                     year: '2020',
-                    header: 'Topaz Detailing',
-                    text: 'Praca na podstawie projektu. Wykonywanie napisów, figur i kształtów na elementach. Natryskiwanie powłoki ochronnej. Nanoszenie farb, które można zerwać. Malowanie części karbonowych.',
                 },
                 {
                     year: '2018',
-                    header: 'Rainbow Bodyshop',
-                    text: 'Planowanie i nadzór nad pracami lakierniczymi. Przygotowanie i malowanie. Praca według standardów Mercedes-Benz lakierami Spies Hecker. Kursy i szkolenia w centrum szkoleniowym Mercedes-Benz.',
                 },
                 {
                     year: '2016',
-                    header: 'Hayden Coachwork Ltd',
-                    text: 'Naprawa elementów samochodowych. Przygotowanie, malowanie i polerowanie. Sprawdzanie jakości prac pracowników. Praca na produktach Sikkens i Octoral.',
                 },
                 {
                     year: '2014',
-                    header: 'Fastline Body&Paint Sunninghill UK',
-                    text: 'Sprawdzanie poszczególnych etapów pracy. Malowanie prestiżowych samochodów według najwyższych standardów. Eliminowanie i korekta błędów innych pracowników. Stosowanie farb BMW, Glasurit i DuPont.',
                 },
                 {
                     year: '2010',
-                    header: 'Impact Bodyshop Uxbridge UK',
-                    text: 'Planowanie i organizacja etapów pracy. Malowanie i sprawdzanie końcowych efektów. Stosowanie baz wodorozcieńczalnych, materiałów P.P.G. oraz farb DuPont.',
                 },
                 {
                     year: '2008',
-                    header: 'Auto Tech Ltd Slough',
-                    text: 'Sprawdzanie, przygotowanie i naprawa paneli samochodów. Malowanie i polerowanie. Stosowanie farb Nexa.',
                 },
                 {
                     year: '2006',
-                    header: 'Autotechnics Holyport UK',
-                    text: 'Sprawdzanie i przygotowywanie samochodów do malowania. Malowanie i polerowanie. Stosowanie Excell, Nexa i farb z grupy BMW.',
                 },
                 {
                     year: '2001',
-                    header: 'Zespół Szkół Mechaniczno-Informatycznych w Lęborku',
-                    text: 'Ukończenie szkoły i uzyskanie kwalifikacjii i umiejętności blacharza samochodowego.',
                 },
             ]
         }
