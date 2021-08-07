@@ -79,5 +79,59 @@
                 "personalization": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         }
+    },
+    "aboutUs": {
+        "team": {
+            "header": "Profesjonalny i kreatywny zespół",
+            "firstParagraph": "Wykorzystujemy nasz potencjał w drodze do doskonałości. Z zaangażowaniem dbamy o najwyższą jakość naszych usług",
+            "secondParagraph": "Nasza firma bazuje na efektywnej obsłudze klienta oraz najwyższym poziomie jakości napraw. Gwarancją jest nasza praca, którą wykonujemy już 20 lat"
+        },
+        "history": {
+            "header": "Historia rozwoju zawodowego i doświadczenia",
+            "years": {
+                "2001": {
+                    "header": "Zespół Szkół Mechaniczno-Informatycznych w Lęborku",
+                    "text": "Ukończenie szkoły i uzyskanie kwalifikacjii i umiejętności blacharza samochodowego."
+                },
+                "2006": {
+                    "header": "Autotechnics Holyport UK",
+                    "text": "Sprawdzanie i przygotowywanie samochodów do malowania. Malowanie i polerowanie. Stosowanie Excell, Nexa i farb z grupy BMW."
+                },
+                "2008": {
+                    "header": "Auto Tech Ltd Slough",
+                    "text": "Sprawdzanie, przygotowanie i naprawa paneli samochodów. Malowanie i polerowanie. Stosowanie farb Nexa."
+                },
+                "2010": {
+                    "header": "Impact Bodyshop Uxbridge UK",
+                    "text": "Planowanie i organizacja etapów pracy. Malowanie i sprawdzanie końcowych efektów. Stosowanie baz wodorozcieńczalnych, materiałów P.P.G. oraz farb DuPont."
+                },
+                "2014": {
+                    "header": "Fastline Body&Paint Sunninghill UK",
+                    "text": "Sprawdzanie poszczególnych etapów pracy. Malowanie prestiżowych samochodów według najwyższych standardów. Eliminowanie i korekta błędów innych pracowników. Stosowanie farb BMW, Glasurit i DuPont."
+                },
+                "2016": {
+                    "header": "Hayden Coachwork Ltd",
+                    "text": "Naprawa elementów samochodowych. Przygotowanie, malowanie i polerowanie. Sprawdzanie jakości prac pracowników. Praca na produktach Sikkens i Octoral."
+                },
+                "2018": {
+                    "header": "Rainbow Bodyshop",
+                    "text": "Planowanie i nadzór nad pracami lakierniczymi. Przygotowanie i malowanie. Praca według standardów Mercedes-Benz lakierami Spies Hecker. Kursy i szkolenia w centrum szkoleniowym Mercedes-Benz."
+                },
+                "2020": {
+                    "header": "Topaz Detailing",
+                    "text": "Praca na podstawie projektu. Wykonywanie napisów, figur i kształtów na elementach. Natryskiwanie powłoki ochronnej. Nanoszenie farb, które można zerwać. Malowanie części karbonowych."
+                }
+            }
+        },
+        "companyBasics": {
+            "header": "Podstawy działania firmy",
+            "paragraphs": [
+                "Technologia, materiały i narzędzia odgrywają kluczową rolę w procesie naprawczym. Dlatego też szczególną uwagę skupiamy na ich doborze, aby uzyskać perfekcyjny efekt końcowy",
+                "Nasze życiowe i osobiste wartości kształtują format budowania naszej marki, autorytetu i prestiżu",
+                "Wiedza, doświadczenie i cieżka praca sprawiają, że jesteśmy stabilnym i niezawodnym partnerem oferującym usługi napraw blacharskich i lakierniczych z elementami detailingu na rynku motoryzacyjnym",
+                "Nasza lakiernia jest kompletna. Przemyślany został każdy jej element tak, aby w pełni wykorzystać potencjał ludzki i techniczny",
+                "Dążymy do doskonałości. Rozwijamy się i kreujemy własny system działania. Zapewniamy najwyższą jakość i profesjonalizm. Nasze prace są wykonywane z precyzją i dbałością, a efekty są oryginalne i wyjątkowe"
+            ]
+        }
     }
 }
