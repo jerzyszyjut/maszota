@@ -93,6 +93,9 @@ export default {
     width: 100%;
     height: 20px;
 }
+.history {
+    margin-top: 70px;
+}
 .header {
     width: 60%;
     font-size: 32px;
