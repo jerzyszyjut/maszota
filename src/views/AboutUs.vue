@@ -1,6 +1,5 @@
 <template>
     <div class="about-us">
-        <div class="stripe"></div>
         <div class="team">
             <div class="header">{{ $t('aboutUs.team.header') }}</div>
             <div class="paragraph">{{ $t('aboutUs.team.firstParagraph') }}</div>
@@ -87,11 +86,6 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.stripe {
-    background-image: linear-gradient(to right, #5B41A0, #E33EA7);
-    width: 100%;
-    height: 20px;
 }
 .history {
     margin-top: 70px;

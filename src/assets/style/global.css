@@ -5,4 +5,9 @@ body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
 }
+.stripe {
+  background-image: linear-gradient(to right, #5B41A0, #E33EA7);
+  width: 100%;
+  height: 20px;
+}
 /*# sourceMappingURL=global.css.map */
