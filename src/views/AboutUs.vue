@@ -5,28 +5,6 @@
             <div class="paragraph">{{ $t('aboutUs.team.firstParagraph') }}</div>
             <div class="paragraph">{{ $t('aboutUs.team.secondParagraph') }}</div>
         </div>
-        <div class="header">{{ $t('aboutUs.history.header') }}</div>
-        <div class="history">
-            <v-timeline reverse="reverse">
-                <v-timeline-item v-for="(year, i) in years" :key="i" :color="year.color" fill-dot>
-                    <template v-slot:opposite>
-                        <span
-                        class="header"
-                        :style="`color: ${year.color};`"
-                        v-text="year.year"
-                        ></span>
-                    </template>
-                    <div class="" style="max-width: 650px">
-                        <div :style="`color: ${year.color}; font-size: 22px; margin-bottom: 20px; text-transform: uppercase`">
-                            {{ $t(`aboutUs.history.years.${year.year}.header`) }}
-                        </div>
-                        <div>
-                            {{ $t(`aboutUs.history.years.${year.year}.text`) }}
-                        </div>
-                    </div>
-                </v-timeline-item>
-            </v-timeline>
-        </div>
         <div class="company-basics">
             <div class="header">{{ $t('aboutUs.companyBasics.header') }}</div>
             <div class="bottom paragraph" v-for="i in 5" :key="i">
@@ -87,9 +65,6 @@ export default {
     justify-content: center;
     align-items: center;
 }
-.history {
-    margin-top: 70px;
-}
 .header {
     width: 60%;
     font-size: 32px;
@@ -117,7 +92,6 @@ export default {
     width: 100%;
     padding: 100px 0 100px 0;
     background-color: #f3f3f3;
-    margin-bottom: 100px;
 }
 .company-basics {
     display: flex;
