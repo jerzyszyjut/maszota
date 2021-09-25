@@ -26,12 +26,10 @@ export default {
             upperSections: [
                 {header:'call', icon: 'local_phone', content:'call'},
                 {header:'email', icon: 'mail_outline', content:'email'},
-                {header:'opening_hours', icon: 'schedule', content:'opening_hours'},
             ],
             lowerSections: [
                 {header:'first', content:'first'},
                 {header:'second', content:'second'},
-                {header:'third', content:'third'},
             ]
         }
     }
@@ -65,7 +63,6 @@ export default {
     }
     .section:nth-child(2) {
         border-left: solid 2px;
-        border-right: solid 2px;
     }
     .header {
         display: flex;
