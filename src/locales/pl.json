@@ -96,5 +96,13 @@
                 "Dążymy do doskonałości. Rozwijamy się i kreujemy własny system działania. Zapewniamy najwyższą jakość i profesjonalizm. Nasze prace są wykonywane z precyzją i dbałością, a efekty są oryginalne i wyjątkowe"
             ]
         }
+    },
+    "contact": {
+        "header": "Skontaktuj się z nami!",
+        "content": {
+            "tel": "Telefon",
+            "email": "Email",
+            "address": "Adres"
+        }
     }
 }

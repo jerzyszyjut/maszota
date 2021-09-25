@@ -79,5 +79,13 @@
             "personalization": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
         }
     }
-}
+  },
+  "contact": {
+    "header": "Contact us!",
+    "content": {
+        "tel": "Phone",
+        "email": "Email",
+        "address": "Address"
+    }
+  }
 }
