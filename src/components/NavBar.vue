@@ -50,7 +50,7 @@ export default {
                 {key: 1, text: 'home', address: `/`},
                 {key: 2, text: 'services', address: `/services`},
                 {key: 3, text: 'about_us', address: '/about-us'},
-                {key: 4, text: 'contact', address: '/#'},
+                {key: 4, text: 'contact', address: '/contact'},
             ],
             isNavigationShown: false, 
         }
