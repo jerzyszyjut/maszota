@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <NavBar/>
-    <router-view/>
-    <Footer/>
+    <v-app>
+      <NavBar/>
+      <div v-if="!(this.$router.currentRoute.name == 'Home')" class="stripe"></div>
+      <router-view/>
+      <Footer/>
+    </v-app>
   </div>
 </template>
 
@@ -14,6 +17,9 @@ export default {
   components: {
     NavBar,
     Footer,
+  },
+  mounted() {
+    console.log(this.$router.currentRoute)
   }
 }
 </script>

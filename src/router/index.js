@@ -2,7 +2,8 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 
 import Home from '../views/Home.vue'
-import Services from '../components/Services.vue'
+import Services from '../views/Services.vue'
+import AboutUs from '../views/AboutUs.vue'
 
 import i18n from '../i18n'
 
@@ -28,6 +29,11 @@ const routes = [
         path: 'services',
         name: 'Services',
         component: Services
+      },
+      {
+        path: 'about-us',
+        name: 'AboutUs',
+        component: AboutUs
       }
     ]
   },

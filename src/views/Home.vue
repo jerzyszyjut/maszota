@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <Hero/>
+    <Services/>
     <Marketing/>
     <Partners/>
   </div>

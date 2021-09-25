@@ -56,7 +56,7 @@ export default {
         justify-content: center;
     }
     .section {
-        width: 15%;
+        width: 20%;
         padding-left: 50px;
         padding-right: 50px;
     }

@@ -79,5 +79,22 @@
                 "personalization": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
             }
         }
+    },
+    "aboutUs": {
+        "team": {
+            "header": "Profesjonalny i kreatywny zespół",
+            "firstParagraph": "Wykorzystujemy nasz potencjał w drodze do doskonałości. Z zaangażowaniem dbamy o najwyższą jakość naszych usług",
+            "secondParagraph": "Nasza firma bazuje na efektywnej obsłudze klienta oraz najwyższym poziomie jakości napraw. Gwarancją jest nasza praca, którą wykonujemy już 20 lat"
+        },
+        "companyBasics": {
+            "header": "Podstawy działania firmy",
+            "paragraphs": [
+                "Technologia, materiały i narzędzia odgrywają kluczową rolę w procesie naprawczym. Dlatego też szczególną uwagę skupiamy na ich doborze, aby uzyskać perfekcyjny efekt końcowy",
+                "Nasze życiowe i osobiste wartości kształtują format budowania naszej marki, autorytetu i prestiżu",
+                "Wiedza, doświadczenie i cieżka praca sprawiają, że jesteśmy stabilnym i niezawodnym partnerem oferującym usługi napraw blacharskich i lakierniczych z elementami detailingu na rynku motoryzacyjnym",
+                "Nasza lakiernia jest kompletna. Przemyślany został każdy jej element tak, aby w pełni wykorzystać potencjał ludzki i techniczny",
+                "Dążymy do doskonałości. Rozwijamy się i kreujemy własny system działania. Zapewniamy najwyższą jakość i profesjonalizm. Nasze prace są wykonywane z precyzją i dbałością, a efekty są oryginalne i wyjątkowe"
+            ]
+        }
     }
 }
