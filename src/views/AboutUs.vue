@@ -79,8 +79,8 @@ export default {
     width: 30%;
     font-size: 16px;
     font-weight: 300;
-    text-align: center;
     margin-bottom: 20px;
+    text-justify: auto;
 }
 .bottom {
     width: 40%;
@@ -100,5 +100,13 @@ export default {
     width: 100%;
     padding: 100px 0 100px 0;
     background-color: #f3f3f3;
+}
+@media screen and (max-width: 600px) {
+    .header {
+        width: 90%;
+    }
+    .paragraph {
+        width: 90%;
+    }
 }
 </style>
