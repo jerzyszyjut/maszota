@@ -65,6 +65,22 @@ export default {
     justify-content: center;
     align-items: center;
 }
+.team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 100px 0 30px 0;
+    background-color: #f3f3f3;
+}
+.company-basics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 30px 0 100px 0;
+    background-color: #f3f3f3;
+}
 .header {
     width: 60%;
     font-size: 32px;
@@ -76,7 +92,7 @@ export default {
 .paragraph {
     display: flex;
     justify-content: center;
-    width: 30%;
+    width: 40%;
     font-size: 16px;
     font-weight: 300;
     margin-bottom: 20px;
@@ -84,22 +100,6 @@ export default {
 }
 .bottom {
     width: 40%;
-}
-.team {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 100px 0 100px 0;
-    background-color: #f3f3f3;
-}
-.company-basics {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    padding: 100px 0 100px 0;
-    background-color: #f3f3f3;
 }
 @media screen and (max-width: 600px) {
     .header {
