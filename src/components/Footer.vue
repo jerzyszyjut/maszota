@@ -47,10 +47,12 @@ export default {
     }
     .upper {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
     .lower {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
     .section {
@@ -79,13 +81,17 @@ export default {
     @media screen and (max-width: 600px) {
         .upper {
             flex-direction: column;
+            width: 100%;
         }
         .lower {
             flex-direction: column;
+            width: 100%;
         }
         .section {
-            width: 75%;
+            width: 90%;
             margin-bottom: 15px;
+            padding-right: 10px;
+            padding-left: 10px;
         }
         .section.low {
             margin-bottom: 0px;
