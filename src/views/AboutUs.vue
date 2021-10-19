@@ -11,12 +11,20 @@
                 {{ $t(`aboutUs.companyBasics.paragraphs[${i-1}]`) }}
             </div>
         </div>
+        <div class="gallery">
+            <Gallery/>
+        </div>
     </div>
 </template>
 
 <script>
+import Gallery from '../components/Gallery.vue';
+
 export default {
     name: 'AboutUs',
+    components: {
+        Gallery,
+    },
     data() {
         return {
             years: [
@@ -79,6 +87,11 @@ export default {
     align-items: center;
     width: 100%;
     padding: 30px 0 100px 0;
+    background-color: #f3f3f3;
+}
+.gallery {
+    width: 100%;
+    padding: 30px 30px 100px 30px;
     background-color: #f3f3f3;
 }
 .header {
