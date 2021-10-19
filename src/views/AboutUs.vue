@@ -22,6 +22,9 @@ import Gallery from '../components/Gallery.vue';
 
 export default {
     name: 'AboutUs',
+    metaInfo: {
+        title: 'O nas',
+    },
     components: {
         Gallery,
     },

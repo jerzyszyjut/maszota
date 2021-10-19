@@ -15,6 +15,9 @@
 <script>
 export default {
     name: 'Services',
+    metaInfo: {
+        title: 'Oferta',
+    },
     data() {
         return {
             sections: [

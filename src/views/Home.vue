@@ -14,6 +14,14 @@ import Hero from '../components/Hero.vue'
 
 export default {
   name: 'Home',
+  metaInfo: {
+    title: 'Maszota - Strona główna',
+    meta: [{
+      vmid: 'description',
+      name: 'description',
+      content: 'Maszota - Proffesional Car Spraying',
+    }]
+  },
   components: {
     Hero,
     Marketing,
