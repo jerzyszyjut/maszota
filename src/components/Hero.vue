@@ -20,7 +20,7 @@ export default {
 
 <style scoped>
     .background-image {
-        background-image: url("../assets/img/example1.jpg");
+        background-image: url("../assets/img/gallery/Retro_IMG_6204.jpg");
         width: 100%;
         height: 600px;
 
