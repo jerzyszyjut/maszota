@@ -4,6 +4,7 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Services from '../views/Services.vue'
 import AboutUs from '../views/AboutUs.vue'
+import Contact from '../views/Contact.vue'
 
 import i18n from '../i18n'
 
@@ -34,6 +35,11 @@ const routes = [
         path: 'about-us',
         name: 'AboutUs',
         component: AboutUs
+      },
+      {
+        path: 'contact',
+        name: 'Contact',
+        component: Contact
       }
     ]
   },

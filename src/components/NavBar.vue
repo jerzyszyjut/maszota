@@ -7,8 +7,8 @@
                     <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
                 <div @click="switchLanguage()" class="language-choice">
-                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
-                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
+                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
                 </div>
             </div>
         </div>
@@ -21,9 +21,9 @@
                 <div class="link" v-for="link in links" :key="link.key">
                     <a @click="redirect(link.address)">{{ $t(`navbar.${link.text}`) }}</a>
                 </div>
-                <div @click="switchLanguage()" class="language-choice">
-                    <div v-if="$i18n.locale === 'pl'" class="poland-icon icon"></div>
-                    <div v-if="$i18n.locale === 'en'" class="uk-icon icon"></div>
+                <div @click="isNavigationShown?switchLanguage():''" class="language-choice">
+                    <div v-if="$i18n.locale === 'en'" class="poland-icon icon"></div>
+                    <div v-if="$i18n.locale === 'pl'" class="uk-icon icon"></div>
                 </div>
             </div>
         </div>
@@ -50,7 +50,7 @@ export default {
                 {key: 1, text: 'home', address: `/`},
                 {key: 2, text: 'services', address: `/services`},
                 {key: 3, text: 'about_us', address: '/about-us'},
-                {key: 4, text: 'contact', address: '/#'},
+                {key: 4, text: 'contact', address: '/contact'},
             ],
             isNavigationShown: false, 
         }

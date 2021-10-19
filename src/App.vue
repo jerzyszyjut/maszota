@@ -18,8 +18,5 @@ export default {
     NavBar,
     Footer,
   },
-  mounted() {
-    console.log(this.$router.currentRoute)
-  }
 }
 </script>

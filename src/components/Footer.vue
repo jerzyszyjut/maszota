@@ -26,12 +26,10 @@ export default {
             upperSections: [
                 {header:'call', icon: 'local_phone', content:'call'},
                 {header:'email', icon: 'mail_outline', content:'email'},
-                {header:'opening_hours', icon: 'schedule', content:'opening_hours'},
             ],
             lowerSections: [
                 {header:'first', content:'first'},
                 {header:'second', content:'second'},
-                {header:'third', content:'third'},
             ]
         }
     }
@@ -49,10 +47,12 @@ export default {
     }
     .upper {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
     .lower {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
     .section {
@@ -65,7 +65,6 @@ export default {
     }
     .section:nth-child(2) {
         border-left: solid 2px;
-        border-right: solid 2px;
     }
     .header {
         display: flex;
@@ -82,13 +81,17 @@ export default {
     @media screen and (max-width: 600px) {
         .upper {
             flex-direction: column;
+            width: 100%;
         }
         .lower {
             flex-direction: column;
+            width: 100%;
         }
         .section {
-            width: 75%;
+            width: 90%;
             margin-bottom: 15px;
+            padding-right: 10px;
+            padding-left: 10px;
         }
         .section.low {
             margin-bottom: 0px;

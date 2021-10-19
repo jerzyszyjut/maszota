@@ -30,6 +30,7 @@ export default {
         font-size: 30px;
         margin-bottom: 50px;
         text-transform: uppercase;
+        text-align: center;
     }
     .logos {
         display: flex;
