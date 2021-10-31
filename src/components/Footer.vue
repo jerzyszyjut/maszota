@@ -9,12 +9,6 @@
                 <div class="content"> {{ $t(`footer.upperSection.content.${section.content}`) }} </div>
             </div>
         </div>
-        <div class="lower">
-            <div class="section low" v-for="section in lowerSections" :key="section.icon"> 
-                <div class="header"> {{ $t(`footer.lowerSection.header.${section.header}`) }} </div>
-                <div class="content"> {{ $t(`footer.lowerSection.content.${section.content}`) }} </div>
-            </div>
-        </div>
     </div>
 </template>
 
@@ -27,10 +21,6 @@ export default {
                 {header:'call', icon: 'local_phone', content:'call'},
                 {header:'email', icon: 'mail_outline', content:'email'},
             ],
-            lowerSections: [
-                {header:'first', content:'first'},
-                {header:'second', content:'second'},
-            ]
         }
     }
 }
