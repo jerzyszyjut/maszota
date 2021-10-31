@@ -29,7 +29,41 @@
 export default {
     name: 'Contact',
     metaInfo: {
-        title: 'Kontakt',
+    title: 'Kontakt',
+    meta: [{
+        vmid: 'description',
+        name: 'description',
+        content: 'Kontakt Maszota',
+        },
+        {
+        vmid: 'google',
+        name: 'google',
+        content: 'nositelinkssearchbox',
+        },
+        {
+        vmid: 'googlebot',
+        name: 'googlebot',
+        content: 'all',
+        },
+        {
+        vmid: 'og:title',
+        name: 'og:title',
+        property: 'og:title',
+        content: 'Maszota - Kontakt',
+        },
+        {
+        vmid: 'og:type',
+        name: 'og:type',
+        property: 'og:type',
+        content: 'website',
+        },
+        {
+        vmid: 'og:image',
+        name: 'og:image',
+        property: 'og:image',
+        content: 'https://imgur.com/CXLc57n.png',
+        },
+        ]
     },
 }
 </script>
