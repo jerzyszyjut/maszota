@@ -2,9 +2,9 @@
     <div class="partners">
         <div class="header">{{ $t('partners.header') }}</div>
         <div class="logos">
-            <img class="logo" src="../assets/partners_logos/bruh.png">
-            <img class="logo" src="../assets/partners_logos/bruh.png">
-            <img class="logo" src="../assets/partners_logos/bruh.png">
+            <img class="logo" src="../assets/partners_logos/debeer.png">
+            <img class="logo" src="../assets/partners_logos/gakra.jpg">
+            <img class="logo" src="../assets/partners_logos/koch.jpg">
         </div>
     </div>
 </template>
@@ -21,7 +21,7 @@ export default {
         width: 100%;
         background-color: white;
         color: black;
-        padding: 100px;
+        padding: 150px 100px 150px 100px;
     }
     .header {
         display: flex;
@@ -38,7 +38,7 @@ export default {
         align-items: center;
     }
     .logo {
-        height: 150px;
+        width: 150px;
     }
     @media screen and (max-width: 600px) {
         .partners {
