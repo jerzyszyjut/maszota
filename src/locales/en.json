@@ -80,6 +80,23 @@
         }
     }
   },
+  "aboutUs": {
+    "team": {
+        "header": "Proffesional and creative team",
+        "firstParagraph": "We use our potential on the way to excellence. We are committed to the highest quality of our services",
+        "secondParagraph": "Our company is based on effective customer service and the highest level of repair quality. Our work, which we have been doing for 20 years, is the best guarantee"
+    },
+    "companyBasics": {
+        "header": "Basics of company operation",
+        "paragraphs": [
+            "Technology, materials and tools play a key role in the repair process. Therefore, we pay special attention to their selection in order to obtain a perfect end result",
+            "Our life and personal values ​​shape the format of building our brand, authority and prestige",
+            "Knowledge, experience and hard work make us a stable and reliable partner offering body and paint repair services with detailing elements on the automotive market",
+            "Our paint shop is complete. Each element has been thought out so as to fully use the human and technical potential",
+            "We strive for excellence. We develop and create our own operating system. We provide the highest quality and professionalism. Our works are performed with precision and care. As a result the effects are original and unique"
+        ]
+    }
+  },
   "contact": {
     "header": "Contact us!",
     "content": {
