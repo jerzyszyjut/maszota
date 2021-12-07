@@ -23,20 +23,20 @@
     },
     "lowerSection": {
       "header": {
-        "first": "Lorem ipsum dolor sit amet",
-        "second": "Lorem ipsum dolor sit amet",
-        "third": "Lorem ipsum dolor sit amet"
+        "first": "",
+        "second": "",
+        "third": ""
       },
       "content": {
-        "first": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "second": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "third": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "first": "",
+        "second": "",
+        "third": ""
       }
     }
   },
   "marketing": {
-    "header": "Lorem ipsum",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "header": "",
+    "paragraph": "",
     "sections": {
       "header": {
         "quality": "Quality",
@@ -44,19 +44,19 @@
         "satisfaction": "Satisfaction"
       },
       "content": {
-        "quality": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "satisfaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "quality": "",
+        "experience": "",
+        "satisfaction": ""
       }
     }
   },
   "hero": {
-    "header": "Lorem ipsum dolor sit amet.",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "header": "",
+    "paragraph": ""
   },
   "services": {
     "header": "What service do you need?",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "",
     "sections": {
         "header": {
             "painting": "Car painting",
@@ -69,14 +69,14 @@
             "personalization": "Personalization"
         },
         "content": {
-            "painting": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "repairs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "detailing": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "colors": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "mixing": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "coating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "corrections": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "personalization": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "painting": "",
+            "repairs": "",
+            "detailing": "",
+            "colors": "",
+            "mixing": "",
+            "coating": "",
+            "corrections": "",
+            "personalization": ""
         }
     }
   },
