@@ -3,6 +3,7 @@ import Vue from 'vue';
 import App from './App.vue';
 import router from './router/index';
 import VueRouter from 'vue-router';
+import Meta from 'vue-meta';
 
 import './assets/style/global.css';
 import i18n from './i18n'
@@ -19,6 +20,7 @@ router.beforeEach((to, from, next) => {
   next()
 })
 
+Vue.use(Meta);
 Vue.use(VueRouter);
 new Vue({
   router,

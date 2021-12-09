@@ -16,27 +16,27 @@
         "opening_hours": "Opening hours"
       },
       "content": {
-        "call": "Tel: 123-456-7890 | Fax: 123-456-7890",
-        "email": "info@mysite.com",
-        "opening_hours": "Mon - Fri: 7am - 10pm"
+        "call": "Tel: +48 577 509 009",
+        "email": "monikamaszota@yahoo.com",
+        "opening_hours": "Mon - Fri: 10am - 4pm"
       }
     },
     "lowerSection": {
       "header": {
-        "first": "Lorem ipsum dolor sit amet",
-        "second": "Lorem ipsum dolor sit amet",
-        "third": "Lorem ipsum dolor sit amet"
+        "first": "",
+        "second": "",
+        "third": ""
       },
       "content": {
-        "first": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "second": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "third": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "first": "",
+        "second": "",
+        "third": ""
       }
     }
   },
   "marketing": {
-    "header": "Lorem ipsum",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "header": "",
+    "paragraph": "",
     "sections": {
       "header": {
         "quality": "Quality",
@@ -44,19 +44,19 @@
         "satisfaction": "Satisfaction"
       },
       "content": {
-        "quality": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "experience": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "satisfaction": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        "quality": "",
+        "experience": "",
+        "satisfaction": ""
       }
     }
   },
   "hero": {
-    "header": "Lorem ipsum dolor sit amet.",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    "header": "",
+    "paragraph": ""
   },
   "services": {
     "header": "What service do you need?",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "",
     "sections": {
         "header": {
             "painting": "Car painting",
@@ -69,15 +69,32 @@
             "personalization": "Personalization"
         },
         "content": {
-            "painting": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "repairs": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "detailing": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "colors": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "mixing": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "coating": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "corrections": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "personalization": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "painting": "",
+            "repairs": "",
+            "detailing": "",
+            "colors": "",
+            "mixing": "",
+            "coating": "",
+            "corrections": "",
+            "personalization": ""
         }
+    }
+  },
+  "aboutUs": {
+    "team": {
+        "header": "Proffesional and creative team",
+        "firstParagraph": "We use our potential on the way to excellence. We are committed to the highest quality of our services",
+        "secondParagraph": "Our company is based on effective customer service and the highest level of repair quality. Our work, which we have been doing for 20 years, is the best guarantee"
+    },
+    "companyBasics": {
+        "header": "Basics of company operation",
+        "paragraphs": [
+            "Technology, materials and tools play a key role in the repair process. Therefore, we pay special attention to their selection in order to obtain a perfect end result",
+            "Our life and personal values ​​shape the format of building our brand, authority and prestige",
+            "Knowledge, experience and hard work make us a stable and reliable partner offering body and paint repair services with detailing elements on the automotive market",
+            "Our paint shop is complete. Each element has been thought out so as to fully use the human and technical potential",
+            "We strive for excellence. We develop and create our own operating system. We provide the highest quality and professionalism. Our works are performed with precision and care. As a result the effects are original and unique"
+        ]
     }
   },
   "contact": {

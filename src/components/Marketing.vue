@@ -64,7 +64,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 30%;
+        width: 200px;
     }
     .section .material-icons {
         font-size: 60px;
