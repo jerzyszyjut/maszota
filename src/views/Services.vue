@@ -103,6 +103,8 @@ export default {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
+        width: 80%;
+        height: 600px;
     }
     .section {
         display: flex;
@@ -131,6 +133,7 @@ export default {
         }
         .sections {
             flex-direction: column;
+            height: auto;
         }
         .header, .paragraph, .section, .section .header, .section .paragraph {
             width: 100%;

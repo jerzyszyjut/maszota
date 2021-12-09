@@ -41,7 +41,7 @@ export default {
         display: flex;
         justify-content: center;
         width: 50%;
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 500;
         text-align: center;
         margin-bottom: 30px;
@@ -64,7 +64,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: center;
-        width: 200px;
+        width: 300px;
     }
     .section .material-icons {
         font-size: 60px;

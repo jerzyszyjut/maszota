@@ -98,10 +98,11 @@ export default {
 }
 .navbar .navbar-content .links {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
     padding-left: 50px;
+    width: 500px;
 }
 .navbar .navbar-content .links .link {
     padding: 0px 10px 0px 10px;

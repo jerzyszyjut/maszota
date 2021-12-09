@@ -5,6 +5,7 @@
             <img class="logo" src="../assets/partners_logos/debeer.png">
             <img class="logo" src="../assets/partners_logos/gakra.jpg">
             <img class="logo" src="../assets/partners_logos/koch.jpg">
+            <img class="logo" src="../assets/partners_logos/Valspar-Automotive-Logo.png">
         </div>
     </div>
 </template>

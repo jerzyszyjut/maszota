@@ -51,6 +51,8 @@ export default {
     @media screen and (max-width: 600px) {
         .background-image {
             height: 475px;
+            background-image: url("../assets/img/gallery/Retro_IMG_MOBILE.jpg");
+            background-attachment: scroll;
         }
         .header {
             font-size: 32px;
