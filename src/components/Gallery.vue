@@ -37,6 +37,12 @@ export default {
                 {link: 'https://imgur.com/Wrq02Rb.jpg'},
                 {link: 'https://imgur.com/UzdUzrq.jpg'},
                 {link: 'https://imgur.com/cVbBaPB.jpg'},
+                {link: 'https://imgur.com/VMT2018.jpg'},
+                {link: 'https://imgur.com/O9vieOd.jpg'},
+                {link: 'https://imgur.com/iqm3CDd.jpg'},
+                {link: 'https://imgur.com/AFzH6nA.jpg'},
+                {link: 'https://imgur.com/P91wkBb.jpg'},
+                {link: 'https://imgur.com/dFGYTZl.jpg'},
             ]
         }
     }
