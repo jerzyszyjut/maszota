@@ -13,7 +13,8 @@
             "header": {
                 "call": "Zadzwoń do nas",
                 "email": "Wyślij do nas maila",
-                "opening_hours": "Godziny otwarcia"
+                "opening_hours": "Godziny otwarcia",
+                "social_media": "Znajdź nas na"
             },
             "content": {
                 "call": "Tel: +48 577 509 009",

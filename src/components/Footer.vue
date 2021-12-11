@@ -8,13 +8,26 @@
                 </div>
                 <div class="content"> {{ $t(`footer.upperSection.content.${section.content}`) }} </div>
             </div>
+            <div class="section">
+                <div class="header">
+                    {{ $t('footer.upperSection.header.social_media') }}
+                </div>
+                <div class="content">
+                    <SocialMedia />
+                </div>
+            </div>
         </div>
     </div>
 </template>
 
 <script>
+import SocialMedia from './SocialMedia.vue';
+
 export default {
     name: 'Footer',
+    components: {
+        SocialMedia,
+    },
     data() {
         return {
             upperSections: [
@@ -55,6 +68,7 @@ export default {
     }
     .section:nth-child(2) {
         border-left: solid 2px;
+        border-right: solid 2px;
     }
     .header {
         display: flex;
