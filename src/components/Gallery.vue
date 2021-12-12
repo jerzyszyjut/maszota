@@ -43,7 +43,6 @@ export default {
                 {link: 'https://imgur.com/AFzH6nA.jpg'},
                 {link: 'https://imgur.com/P91wkBb.jpg'},
                 {link: 'https://imgur.com/dFGYTZl.jpg'},
-                {link: 'https://imgur.com/sxNGZ6k.jpg'},
                 {link: 'https://imgur.com/AHE5nki.jpg'},
                 {link: 'https://imgur.com/YeHcjY0.jpg'},
                 {link: 'https://imgur.com/hwV3mAA.jpg'},
