@@ -51,7 +51,7 @@ const routes = [
 
 const router = new VueRouter({
   mode: 'history',
-  base: '/maszota/',
+  base: '/',
   routes
 })
 
