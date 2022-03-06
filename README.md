@@ -1,5 +1,9 @@
 # maszota-web
 
+website is availible under [maszota.pl](https://maszota.pl/)
+
+README.md to be updated 
+
 ## Project setup
 ```
 npm install
