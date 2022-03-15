@@ -1,28 +1,42 @@
-# maszota-web
+# Random user generator
+This app is made for Maszota Car Spray Company.
+Website is available under [maszota.pl](https://maszota.pl/pl)
 
-website is availible under [maszota.pl](https://maszota.pl/)
+*Made by Jerzy Szyjut*
 
-README.md to be updated 
+Contact me via jerzy.szyjut@outlook.com
 
-## Project setup
-```
-npm install
-```
+## Table of contents
+- [Technologies](#technologies)
+- [Prerequisites](#prerequisites)
+- [Setup](#setup)
+    - [Installing dependencies](#installing-dependencies)
+    - [Running local HTTP Server](#running-local-http-server)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Technologies
+- HTML
+- JavaScript
+- SASS
+- ESLint
+- i18n (multilanguage plugin)
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Prerequisites
+Make sure you have installed all the following prerequisites before developing app.
+- [Node >16](https://nodejs.org/)
+
+## Setup
+### Installing dependencies
+```bash
+npm i
+```
+### Running local HTTP Server
+To run local HTTP server, first install `http-server` package
+```bash
+npm i -g http server
+```
+To start the server run this command in project root directory
+```bash
+http-server
+```
